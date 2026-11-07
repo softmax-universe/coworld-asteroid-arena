@@ -8,7 +8,7 @@
 <!-- COWORLD-REPO-STATUS:START -->
 > [!NOTE]
 > Coworld repo status: **incomplete** (`coworld-incomplete`).
-> Canonical repository: `Metta-AI/coworld-asteroid-arena`.
+> Canonical repository: `softmax-universe/coworld-asteroid-arena`.
 > Manifest path: `coworld_manifest.json`.
 > Build path: `Dockerfile`
 > Certification: blocked until `uv run coworld certify coworld_manifest.json` passes and the result is recorded.

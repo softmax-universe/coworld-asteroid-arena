@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/metta/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/coworld/main/src/coworld/coworld_manifest_schema.json",
   "game": {
     "name": "asteroid_arena",
     "version": "0.1.0",
@@ -66,17 +66,17 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       }
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-asteroid-arena/blob/master/README.md"
+        "value": "https://github.com/softmax-universe/coworld-asteroid-arena/blob/master/README.md"
       },
       "pages": [
         {
@@ -100,7 +100,7 @@
           "title": "Reward Protocol",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/reward_v1.md"
+            "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/reward_v1.md"
           }
         }
       ]
@@ -136,8 +136,8 @@
       "name": "BitWorld Score Grader",
       "type": "grader",
       "description": "Generic BitWorld grader that scores episode interest from score spread and game-specific activity signals.",
-      "source_url": "https://github.com/Metta-AI/coworld-asteroid-arena/tree/master/grader/graders/bitworld_score/bitworld_score_grader",
-      "image": "ghcr.io/metta-ai/coworld-asteroid-arena-grader:latest"
+      "source_url": "https://github.com/softmax-universe/coworld-asteroid-arena/tree/master/grader/graders/bitworld_score/bitworld_score_grader",
+      "image": "ghcr.io/softmax-universe/coworld-asteroid-arena-grader:latest"
     }
   ],
   "variants": [
