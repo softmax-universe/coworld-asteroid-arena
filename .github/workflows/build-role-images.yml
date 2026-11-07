@@ -28,7 +28,7 @@ jobs:
       matrix:
         include:
           - name: grader
-            image: metta-ai/coworld-asteroid-arena-grader
+            image: softmax-universe/coworld-asteroid-arena-grader
             context: ./grader
             file: ./grader/graders/bitworld_score/bitworld_score_grader/Dockerfile
 
